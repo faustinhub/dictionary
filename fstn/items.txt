@@ -1,0 +1,30 @@
+student= {
+"FName" : "faustin",
+"LName" : "karani",
+"Phone" : +254791229520,
+"Email" : "karanifaustin@gmail.com"
+}
+print(student)
+Car={
+"brand" : "ford",
+"electric" : False,
+"year" : 2015,
+"colors" : ["red","white","blue"]
+}
+car={
+"brand" :"Ford",
+"model":"Mustag",
+"year" :1964
+}
+x=car["model"]
+print(x)
+x=car.get("model")
+print(x)
+x=car.keys()
+print(x)
+x=car.values()
+print(x)
+if"model"in car:
+  print("yes,'model' is one of the keys in the thisdict dictionary")
+if"electric"in car:
+  print("yes,'electric' is one of the keys in thisdict dictionary")

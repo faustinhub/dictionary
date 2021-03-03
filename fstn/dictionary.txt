@@ -1,0 +1,23 @@
+car={
+"brand" :"ford",
+"model" : "benz",
+"year" : 1964
+}
+if "model" in car:
+  print("yes, 'model' is one of the keys in thisdct dictionary")
+if "student" in car:
+  print("yes, 'student' is one of the keys in thisdct dictionary")
+car["year"]= 2018
+car["color"]= ("red","blue","yellow")
+car["brand"]=("BMW","range","hilux")
+print(car)
+car.pop("model")
+car.popitem()
+car.clear()
+print(car)
+for x in car.values():
+  print(x)
+for x in car.keys():
+  print(x)
+for x, y in car.items():
+  print(x,y)
